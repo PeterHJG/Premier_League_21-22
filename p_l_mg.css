@@ -1,0 +1,26 @@
+.index_2{
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+#golden{    /*손흥민 살라 위 에 이미지*/
+    border: 10px solid indigo ;
+    border-bottom: 0px;
+    width: 100%;
+    size: 100%;
+    border-style: ridge;
+}
+#ten{
+    display:table;
+}
+#slah {
+    max-height: 79.18%;
+}
+h3 {
+    border: 10px solid indigo;
+    color:white;
+    background-color: whitesmoke;
+    -webkit-text-stroke: 1px indigo;
+    border-style: ridge;
+    background-color: aqua;
+    padding: 10px;
+}

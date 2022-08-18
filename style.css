@@ -1,0 +1,111 @@
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 5em;
+    font-style:unset;
+    color: indigo;
+    text-shadow: 5px 5px white;
+    margin: 0;
+    text-align: center;
+    font-size: 100px; 
+    margin-top: 10px;
+/*____________________________________________*/
+}
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    display: table; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+/*____________________________________________*/
+#title_1 {
+    display: grid;
+    grid-template-columns: 100px 1250px;
+}
+#title_2, #title_3 {
+    padding: 0px;
+}
+/*____________________________________________*/
+#countaner{        /*팀 앰블럼 선택박스 */  
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+#countaner img{      /*팀 앰블럼 크기조절*/
+    border: 10px solid indigo ;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-style: ridge;
+    width: 250px;
+    height: 250px;
+}
+#countaner h2 {      /*팀 앰블럼 아래 순위*/
+    color:white;
+    -webkit-text-stroke: 2px indigo;
+    text-decoration: none;
+    font-size: 32px;
+    margin:0px;
+}
+/*____________________________________________*/
+#KDA img{            /*(경기수) (승) (무) (패) */
+    width: 100%;
+    border:10px solid indigo;
+    border-style: ridge;
+    border-radius: 5%;
+}
+/*____________________________________________*/
+.index_1{                 /* 목차 class 추가할지말지고민 */
+    text-align: center;
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    padding-bottom: 400px;
+    border: 10px solid indigo;
+    color:white;
+    background-color: whitesmoke;
+    -webkit-text-stroke: 1px indigo;
+    border-style: ridge;
+    background-color: aqua;
+}
+.index_1 h2 { /* 목차 class 추가할지말지고민 */
+    font-size: 42px;
+    margin: 0px;
+    padding: 5px;
+    border: 5px;
+}
+.index_1 img {
+    width: 90%;
+    padding:0px;
+    margin:0px;
+    border-left: 10px solid indigo;
+    border-right: 10px solid indigo;
+    border-bottom: 10px solid indigo;
+    border-style: ridge;
+    border-top:0;
+}
+.index_1 ul {
+    padding: 0px;
+    margin: 0px;
+    color:antiquewhite;
+    background-color: whitesmoke;
+} 
+.index_1 li {
+    border-top:5px solid indigo;
+    font-size: 42px;
+    padding:8.7px;
+    margin:0px;
+}
+.index_0 {
+    display: grid;
+    grid-template-columns:0.5fr 4fr; /*비율중요*/ 
+    margin-left: auto; 
+    margin-right: auto;
+    padding:0px;
+}
+.index_2 img{
+    width: 100%;   
+    border:10px  solid indigo; 
+    border-style: ridge;
+}
